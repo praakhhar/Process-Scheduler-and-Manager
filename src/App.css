@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+}
+.my-bar{
+ 
+ 
+ 
+ padding: 10px;
+
+} 
+
+.my-header{
+  background-color: #1E2A5E;
+
+}
+
+.my-card{
+  margin: 20px;
+}
+
+.my-footer{
+  position: relative;
+  bottom: 0px;
+}
+
+.my-cont{
+  
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-form{
+  background-color: #7C93C3;
+  margin: 20px;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.my-chart{
+  margin: 20px;
+  width: 80%;
+  text-align: center;
+  margin-left: 120px;
+  
+}
+
+.my-data{
+  text-align: left;
+
+}
+
+.my-about{
+  margin: 10px;
+  width: 50%;
+  margin-left: 400px;
+  border-style: solid;
+  border-top-style:none ;
+  border-bottom-style:none ;
+  
+}
+
+.my-delete{
+  height: 33px;
+}
+
+.my-data-shower{
+  display: flex;
+}
+
+.my-button-shower{
+  margin-bottom: 10px;
+  background-color: #7C93C3;
+  display: flex;
+  justify-content: space-around;
+  border-bottom-style:groove  ;
+  border-color: black;
+}
+
+.my-button{
+ 
+  padding: 5px;
+}
+
+.my-burst-time{
+  text-align: center;
+  
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+
+.my-avg-time{
+  margin: 5px;
+}
+
+.my-body{
+  font-family: serif;
+}
+.my-navbar-heading{
+  font-family: "Dancing Script", cursive;
+  
+  
+  
+}
