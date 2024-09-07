@@ -6,7 +6,7 @@ const Process = () => {
   const { processes } = useContext(ProcessContext);
   return (
     <>
-      <div className="row">
+      <div className="my-process-container">
         {processes.map((process) => {
           return (
             <CreateProcess key={process.id} process={process}></CreateProcess>

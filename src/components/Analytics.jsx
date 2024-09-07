@@ -206,38 +206,38 @@ const Analytics = () => {
           </button>
         </div>
       </div>
-      <div className="my-burst-time">
-        <h3
-          style={{
-            backgroundColor: "#1E2A5E",
-            margin: "0px",
-            color: "#E1D7B7",
-            padding: "5px",
-          }}
-        >
-          Burst Time Visualization
-        </h3>
+      <div className="my-burst-time my-flex-container">
         <div className="my-bar">
+          <h3
+            style={{
+              backgroundColor: "#1E2A5E",
+              margin: "0px",
+              color: "#E1D7B7",
+              padding: "5px",
+            }}
+          >
+            Burst Time Visualization
+          </h3>
           <Bar data={chartData} />
         </div>
       </div>
+      <div className="my-flex-container">
+        <div className="my-chart ">
+          <h3
+            style={{
+              backgroundColor: "#1E2A5E",
+              margin: "0px",
+              color: "#E1D7B7",
+              padding: "5px",
+            }}
+          >
+            Gantt Chart
+          </h3>
 
-      <div className="my-chart">
-        <h3
-          style={{
-            backgroundColor: "#1E2A5E",
-            margin: "0px",
-            color: "#E1D7B7",
-            padding: "5px",
-          }}
-        >
-          Gantt Chart
-        </h3>
-
-        <Gantt tasks={ganttTasks} viewMode={ViewMode.Hour} />
-        <hr />
+          <Gantt tasks={ganttTasks} viewMode={ViewMode.Hour} />
+          <hr />
+        </div>
       </div>
-      <br />
 
       <div className="my-data-shower">
         <div class="card my-card col-2">
@@ -247,6 +247,7 @@ const Analytics = () => {
               margin: "0px",
               color: "#E1D7B7",
               padding: "5px",
+              textAlign: "center",
             }}
           >
             Average Times
@@ -266,6 +267,7 @@ const Analytics = () => {
                 margin: "0px",
                 color: "#E1D7B7",
                 padding: "5px",
+                textAlign: "center",
               }}
             >
               Turnaround and Waiting Times
