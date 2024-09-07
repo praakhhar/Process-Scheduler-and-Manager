@@ -240,7 +240,7 @@ const Analytics = () => {
       </div>
 
       <div className="my-data-shower">
-        <div class="card my-card col-2">
+        <div class="card my-card2 col-2">
           <h3
             style={{
               backgroundColor: "#1E2A5E",
@@ -258,7 +258,7 @@ const Analytics = () => {
           </div>
         </div>
 
-        <div class="card my-card col-9">
+        <div class="card my-card2 col-9">
           <div>
             {" "}
             <h3
