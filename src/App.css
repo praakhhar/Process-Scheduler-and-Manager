@@ -4,7 +4,7 @@
 .my-bar{
  
  text-align: center;
- width: 900px;
+ 
 } 
 
 .my-header{
@@ -14,8 +14,8 @@
 
 .my-card{
  
-  flex: 1 1 calc(33.33% - 20px); /* Allow the card to flexibly take up 1/3 of the row */
-  max-width: 390px; /* Optional: Limit the maximum width of each card */
+  flex: 1 1 calc(33.33% - 20px);
+  max-width: 390px; 
   margin: 10px;
 }
 

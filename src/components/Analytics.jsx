@@ -47,7 +47,7 @@ const Analytics = () => {
     }
 
     if (algo === "RR") {
-      const quantum = 2; // or any other value you want
+      const quantum = 2;
       sorted = [...processes];
       waitingTimes = findWaitingTimeRR(
         sorted.length,
@@ -172,8 +172,8 @@ const Analytics = () => {
 
       setWaitingTimes(waitingTimes);
       setTurnaroundTimes(turnaroundTimes);
-      setAvgWaitingTime(avgWaiting.toFixed(2)); // Use avgWaiting here
-      setAvgTurnaroundTime(avgTurnaround.toFixed(2)); // Use avgTurnaround here
+      setAvgWaitingTime(avgWaiting.toFixed(2));
+      setAvgTurnaroundTime(avgTurnaround.toFixed(2));
     }
   }, [sortedProcesses]);
 
@@ -203,8 +203,8 @@ const Analytics = () => {
   const ganttTasks = sortedProcesses.map((process, index) => ({
     id: index + 1,
     name: process.name,
-    start: new Date(2024, 0, 1, 0, process.arrivalTime), // Ensure arrivalTime is in seconds
-    end: new Date(2024, 0, 1, 0, process.arrivalTime + process.burstTime), // Ensure burstTime is in seconds
+    start: new Date(2024, 0, 1, 0, process.arrivalTime),
+    end: new Date(2024, 0, 1, 0, process.arrivalTime + process.burstTime),
     type: "task",
     progress: 100,
     dependencies: [],
