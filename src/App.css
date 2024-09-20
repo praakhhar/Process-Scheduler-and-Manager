@@ -3,10 +3,8 @@
 }
 .my-bar{
  
- width: 100vh;
- 
- padding: 10px;
-
+ text-align: center;
+ width: 900px;
 } 
 
 .my-header{
@@ -42,11 +40,8 @@
 }
 
 .my-chart{
-  margin: 20px;
-  width: 80%;
-  text-align: center;
-  margin-left: 120px;
   
+  text-align: center;
 }
 
 .my-data{
@@ -95,7 +90,8 @@
 }
 
 .my-avg-time{
-  margin: 5px;
+  max-width: 252px;
+ 
 }
 
 .my-body{
@@ -124,4 +120,22 @@
 .my-card2{
  display: flex;
  margin: 10px;
+}
+
+.my-flex-div{
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.data-shower{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1; 
+  min-width: 0; 
 }
